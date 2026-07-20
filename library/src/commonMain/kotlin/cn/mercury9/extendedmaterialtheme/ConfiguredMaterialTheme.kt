@@ -17,6 +17,9 @@ class ConfiguredMaterialTheme internal constructor(
     private val typographyConfig: ConfiguredTypography,
     config: ConfiguredMaterialTheme.() -> Unit = {},
 ) {
+    init {
+        config()
+    }
 
     fun typography(config: ConfiguredTypography.() -> Unit) {
         typographyConfig.config()
