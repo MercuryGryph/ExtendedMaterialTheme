@@ -13,5 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "multiplatform-library-template"
+rootProject.name = "ExtendedMaterialTheme"
+
 include(":library")
+include(":example")
