@@ -65,28 +65,27 @@ mavenPublishing {
     coordinates(group.toString(), artifactId, version.toString())
 
     pom {
-        name = "My library"
-        description = "A library."
+        name = "Extended MaterialTheme"
+        description = "Some utils to help you use MaterialTheme more easily."
         inceptionYear = "2026"
         url = "https://github.com/MercuryGryph/ExtendedMaterialTheme"
         licenses {
             license {
-                name = "XXX"
-                url = "YYY"
-                distribution = "ZZZ"
+                name = "Apache License, Version 2.0"
+                url = "http://www.apache.org/licenses/"
             }
         }
         developers {
             developer {
-                id = "XXX"
-                name = "YYY"
-                url = "ZZZ"
+                id = "MercuryGryph"
+                name = "Mercury Gryph"
+                url = "https://github.com/MercuryGryph"
             }
         }
         scm {
-            url = "XXX"
-            connection = "YYY"
-            developerConnection = "ZZZ"
+            url = "https://github.com/MercuryGryph/ExtendedMaterialTheme"
+            connection = "scm:git:git://github.com/MercuryGryph/ExtendedMaterialTheme.git"
+            developerConnection = "scm:git:ssh://git@github.com:MercuryGryph/ExtendedMaterialTheme.git"
         }
     }
 }
