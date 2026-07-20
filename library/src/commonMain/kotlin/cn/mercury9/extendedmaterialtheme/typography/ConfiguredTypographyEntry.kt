@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package cn.mercury9.extendedmaterialtheme.typography
 
 import androidx.compose.runtime.Composable

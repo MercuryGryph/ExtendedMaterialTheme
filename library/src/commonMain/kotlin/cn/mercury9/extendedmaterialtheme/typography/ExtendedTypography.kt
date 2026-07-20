@@ -6,10 +6,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.text.TextStyle
-import cn.mercury9.extendedmaterialtheme.MaterialThemeConfigDsl
-import kotlin.contracts.ExperimentalContracts
-import kotlin.contracts.InvocationKind
-import kotlin.contracts.contract
 
 object ExtendedTypography {
     val display  : TypographyEntry = Type.Display
